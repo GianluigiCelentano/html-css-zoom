@@ -2,9 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .container {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     padding: 20px;
     height: 90vh;
@@ -22,6 +22,7 @@
     height: 200px;
     background-color: green;
     border: 1px solid black;
+    align-items: flex-end;
 }
 .text {
     display: flex;
@@ -33,18 +34,23 @@
 .nav-bar {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 10vh;
     background-color: grey;
+    justify-content: space-between;
+    color: white;
 }
 ul {
     list-style: none;
 }
 li {
+    font-size: 20px;
     display: inline-block;
+    text-align: center;
+    padding: 10px;
 }
-.first-ul {
-    align-items: flex-start;
-}
-.second-ul {
-    justify-content: center;
+.end-meeting {
+    color: red;
+    background-color: lightgrey;
+    padding: 35px;
 }
