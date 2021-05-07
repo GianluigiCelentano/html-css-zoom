@@ -31,17 +31,16 @@
     height: 25px;
 }
 .nav-bar {
+    display: flex;
+    align-items: center;
     height: 10vh;
     background-color: grey;
 }
 ul {
     list-style: none;
 }
-.mute-stopvideo {
-    display: flex;
-}
-.function {
-    display: flex;
+li {
+    display: inline-block;
 }
 .first-ul {
     flex-direction: row;
